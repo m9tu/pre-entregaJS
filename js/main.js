@@ -1,31 +1,27 @@
-function jugarPiedraPapelTijera() {
-    let opciones = ["piedra", "papel", "tijera"];
+let carrito = [];
+let total = 0;
 
-    let eleccionComputadora = opciones[Math.floor(Math.random() * 3)];
+function agregarAlCarrito(button) {
+    let producto = button.parentElement;
+    let nombre = producto.getAttribute("data-nombre");
+    let precio = parseFloat(producto.getAttribute("data-precio"));
 
-    let eleccionJugador = prompt("Elegi: piedra, papel o tijera").toLowerCase();
+    carrito.push({ nombre: nombre, precio: precio });
+    total += precio;
 
-    if (!opciones.includes(eleccionJugador)) {
-        alert("Elección inválida. Por favor, elige piedra, papel o tijera.");
-        return;
-    }
-
-    let resultado;
-    if (eleccionJugador === eleccionComputadora) {
-        resultado = "Un empate";
-    } else if (
-        (eleccionJugador === "piedra" && eleccionComputadora === "tijera") ||
-        (eleccionJugador === "papel" && eleccionComputadora === "piedra") ||
-        (eleccionJugador === "tijera" && eleccionComputadora === "papel")
-    ) {
-        resultado = "Ganaste!";
-    } else {
-        resultado = "La computadora gano";
-    }
-
-    alert(
-        "Elegiste " + eleccionJugador + "\nLa computadora eligió " + eleccionComputadora + "\n" + resultado
-    );
+    actualizarCarrito();
 }
 
-jugarPiedraPapelTijera();
+function actualizarCarrito() {
+    let carritoList = document.getElementById("carrito");
+    let totalElement = document.getElementById("total");
+
+    carritoList.innerHTML = "";
+    totalElement.textContent = total.toFixed(2);
+
+    carrito.forEach(function (item) {
+        let listItem = document.createElement("li");
+        listItem.textContent = item.nombre + " - $" + item.precio.toFixed(2);
+        carritoList.appendChild(listItem);
+    });
+}

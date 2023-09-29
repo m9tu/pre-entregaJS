@@ -6,11 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Velazquez pre-entrega</title>
+    <title>Velazquez pre-entrega 2</title>
 </head>
 
 <body>
+    <h1>Tienda gaming</h1>
+    <ul id="carrito"></ul>
+    <p>Total: $<span id="total">0.00</span></p>
 
+    <h2>Productos Disponibles</h2>
+    <ul id="productos">
+        <li data-nombre="Mouse wireless" data-precio="50000">Mouse wireless - $50000 <button
+                onclick="agregarAlCarrito(this)">Agregar al carrito</button></li>
+        <li data-nombre="Teclado mini" data-precio="30000">Teclado mini - $30000 <button
+                onclick="agregarAlCarrito(this)">Agregar al carrito</button></li>
+        <li data-nombre="Monitor 240hz" data-precio="220000">Monitor 240hz - $220000 <button
+                onclick="agregarAlCarrito(this)">Agregar al carrito</button></li>
+    </ul>
 </body>
 <script src="./js/main.js"></script>
 
