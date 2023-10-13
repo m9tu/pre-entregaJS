@@ -1,0 +1,162 @@
+[
+    {
+        "id": "mousew-01",
+        "titulo": "Mouse Wireless 01",
+        "imagen": "./img/wireless/01.jpg",
+        "categoria": {
+            "nombre": "Mouse Wireless",
+            "id": "wireless"
+        },
+        "precio": 33000
+    },
+    {
+        "id": "mousew-02",
+        "titulo": "Mouse Wireless 02",
+        "imagen": "./img/wireless/02.jpg",
+        "categoria": {
+            "nombre": "Mouse Wireless",
+            "id": "wireless"
+        },
+        "precio": 33000
+    },
+    {
+        "id": "mousew-03",
+        "titulo": "Mouse Wireless 03",
+        "imagen": "./img/wireless/03.jpg",
+        "categoria": {
+            "nombre": "Mouse Wireless",
+            "id": "wireless"
+        },
+        "precio": 33000
+    },
+    {
+        "id": "mousew-04",
+        "titulo": "Mouse Wireless 04",
+        "imagen": "./img/wireless/04.jpg",
+        "categoria": {
+            "nombre": "Mouse Wireless",
+            "id": "wireless"
+        },
+        "precio": 33000
+    },
+    {
+        "id": "mousew-05",
+        "titulo": "Mouse Wireless 05",
+        "imagen": "./img/wireless/05.jpg",
+        "categoria": {
+            "nombre": "Mouse Wireless",
+            "id": "wireless"
+        },
+        "precio": 33000
+    },
+    {
+        "id": "mouse-01",
+        "titulo": "Mouse Wired 01",
+        "imagen": "./img/mouses/01.jpg",
+        "categoria": {
+            "nombre": "Mouse Wired",
+            "id": "wired"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "mouse-02",
+        "titulo": "Mouse Wired 02",
+        "imagen": "./img/mouses/02.jpg",
+        "categoria": {
+            "nombre": "Mouse Wired",
+            "id": "wired"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "mouse-03",
+        "titulo": "Mouse Wired 03",
+        "imagen": "./img/mouses/03.jpg",
+        "categoria": {
+            "nombre": "Mouse Wired",
+            "id": "wired"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "mouse-04",
+        "titulo": "Mouse Wired 04",
+        "imagen": "./img/mouses/04.jpg",
+        "categoria": {
+            "nombre": "Mouse Wired",
+            "id": "wired"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "mouse-05",
+        "titulo": "Mouse Wired 05",
+        "imagen": "./img/mouses/05.jpg",
+        "categoria": {
+            "nombre": "Mouse Wired",
+            "id": "wired"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "mouse-06",
+        "titulo": "Mouse Wired 06",
+        "imagen": "./img/mouses/06.jpg",
+        "categoria": {
+            "nombre": "Mouse Wired",
+            "id": "wired"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "mouse-07",
+        "titulo": "Mouse Wired 07",
+        "imagen": "./img/mouses/07.jpg",
+        "categoria": {
+            "nombre": "Mouse Wired",
+            "id": "wired"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "mouse-08",
+        "titulo": "Mouse Wired 08",
+        "imagen": "./img/mouses/08.jpg",
+        "categoria": {
+            "nombre": "Mouse Wired",
+            "id": "wired"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "accesorio-01",
+        "titulo": "Bungee Blanco 01",
+        "imagen": "./img/accesorios/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "accesorio-02",
+        "titulo": "Bungee Negro 02",
+        "imagen": "./img/accesorios/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "accesorio-03",
+        "titulo": "Glider Speed 03",
+        "imagen": "./img/accesorios/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 6000
+    }
+]
