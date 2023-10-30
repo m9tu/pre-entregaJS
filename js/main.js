@@ -92,8 +92,7 @@ function agregarAlCarrito(e) {
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-            background: "linear-gradient(to right, #4b33a8, #785ce9)",
-            borderRadius: "2rem",
+            background: "linear-gradient(to right, #3f3f3f, #666666)",
             textTransform: "uppercase",
             fontSize: ".75rem"
         },
